@@ -134,7 +134,6 @@ namespace lesson11B_13._02._21
                                 decimal newBalance = decimal.Parse(enterBalance);
                                 Balance balance = new Balance
                                 {
-                                    Id = Id,
                                     OldBalance = client.Balance,
                                     NewBalance = newBalance
                                 };
