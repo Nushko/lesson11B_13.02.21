@@ -18,7 +18,6 @@ namespace lesson11B_13._02._21
     }
     public class Balance
     {
-        public int Id { get; set; }
         public decimal OldBalance { get; set; }
         public decimal NewBalance { get; set; }
     }
